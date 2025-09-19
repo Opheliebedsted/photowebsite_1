@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+img {
+  transition: 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05); /* zoomer lidt ind */
+  box-shadow: 0 4px 15px rgba(38, 23, 194, 0.3); /* giver skysgge */
+  border: 5px solid black;
+}
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
+header {
+  background: navy;
+  padding: 15px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid_1-1-1-1 img {
+  margin: 10px;
+  padding: 25px;
+  filter: grayscale(1);
+}
+h1 {
+  color: navy;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 15px;
+  padding-top: 35px;
+}
+/* Billeder åbnes i en ny side */
+
+/* .girls {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.girls:hover {
+  transform: scale(1.05); /* lidt zoom på hover */
+/* box-shadow: 0 4px 15px rgba(38, 23, 194, 0.3);
+}
+.rubjerg_fyr {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.rubjerg_fyr:hover {
+  transform: scale(1.05); /* lidt zoom på hover */
+/* box-shadow: 0 4px 15px rgba(38, 23, 194, 0.3);
+} */
+footer {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  font-family: helvetica;
+  font-size: medium;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* imgs
+.grid_1-1 .spind {
+  grid-column: span 2;
+}
+.grid_1-1 .img {
+  gap: 1rem;
+} */

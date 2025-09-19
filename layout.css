@@ -1,0 +1,155 @@
+/* @media (max-width: 700px) {
+  .grid_1-1-1-1 a img {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+} */
+/* @media (width<=500px) {
+  .grid_1-1-1-1 {
+    grid-template-columns: 1fr;
+  }
+} */
+
+@media (max-width: 799px) {
+  .grid_1-1-1-1 {
+    grid-template-columns: 1fr;
+  }
+}
+/* .grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+} */
+.grid_1-1-1-1 a img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+@media (min-width: 800px) {
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.grid_1-1-1-1 .rubjerg_fyr {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .bestfriend {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .girls {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .hotel {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .bur {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .cykler {
+  grid-column: 3/4;
+  grid-row: 5/6;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .forældre {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .killinger {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .luftballong {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .maler {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .park {
+  grid-column: 2/3;
+  grid-row: 6/7;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .mone {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .nicolle {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .maleri {
+  grid-column: 1/2;
+  grid-row: 6/7;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .ophe {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .rod {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .roedestole {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .soerne {
+  grid-column: 4/5;
+  grid-row: 5/6;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .stickers {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .skepta {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .spind {
+  grid-column: 3/4;
+  grid-row: 6/7;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .seng {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .togvogne {
+  grid-column: 4/5;
+  grid-row: 6/7;
+  object-fit: cover;
+}
+.grid_1-1-1-1 .vandpyt {
+  grid-column: 4/5;
+  grid-row: 4/5;
+  object-fit: cover;
+}
